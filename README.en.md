@@ -1,6 +1,6 @@
 # locyin_flutter
 
-A new Flutter application.
+A Flutter application which integrates map + guide + UGC(User Generated Content). Every user can publish stories on the map what happened in particular places, such as the interesting things he/her experienced when he/her was a child, the life experience of the house owner, the changes and decline of landmark buildings and the corresponding image data. We try to find interrelated places, events and people through technical means. Then draw these element together as similar as a guide manual in order to make it more convenirent for tourists who are interest in scenic spots to tour、explore and dig.
 
 ## Getting Started
 
