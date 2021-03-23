@@ -102,7 +102,6 @@ class _MyHomePageState extends State<MyHomePage> {
         onPressed: _decrementCounter,
     );
     final resetButton = FancyButton(
-        key: _buttonKeys.last,
         child: Text( "Reset",
         style: TextStyle(color: Colors.white), ),
         onPressed: _resetCounter,
@@ -143,7 +142,8 @@ class _MyHomePageState extends State<MyHomePage> {
                 borderRadius: BorderRadius.circular(4.0),
               ),
               //child: Image.asset( 'assets/images/flutter_logo_1080.png', width: 100.0, ),
-              child: Image.network("https://flutterchina.club/images/flutter-mark-square-100.png"),
+              //child: Image.network("https://flutterchina.club/images/flutter-mark-square-100.png"),
+              child: Image.asset( 'assets/images/flutter-mark-square-100.png', width: 100.0, ),
             ),
             Text(
               'You have pushed the button this many times:',
